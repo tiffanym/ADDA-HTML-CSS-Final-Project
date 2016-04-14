@@ -1,0 +1,227 @@
+<html>
+<head>
+	<title>My Personal Website - Features</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<!-- nav stuff with dropdown-->
+		<nav class='navbar navbar-inverse navbar-static-top'>
+			<div class='container'>
+	
+				<div class='nav-header'>
+					<a class='navbar-brand' href="index.html">Home</a>
+				</div>
+
+				<!-- DROPDOWN MENU -->
+				<ul class='nav navbar-nav'>
+					<!-- My Academic Interests DROPDOWN -->
+					<li class='dropdown'>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">My Academic Interests</a>
+						<!-- items in dropdown menu -->
+						<ul class="dropdown-menu">
+							<li> <a href="#neuroscience">Neuroscience</a></li>
+							<li> <a href="#math">Math</a></li>
+							<li> <a href="#fantasy">Fantasy</a></li>
+							<li> <a href="#music">Music</a></li>
+						</ul>
+					</li>
+
+					<!-- Other Interests DROPDOWN -->
+					<li class='dropdown'>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Other Interests</a>
+						<!-- items in dropdown menu -->
+						<ul class="dropdown-menu">
+							<li> <a href="#programming">Programming</a></li>
+							<li> <a href="#crochet">Crocheting</a></li>
+							<li> <a href="#asl">ASL</a></li>
+						</ul>
+					</li>
+				</ul>
+
+				<ul class="nav navbar-nav navbar-right">
+        			<li><a href="features.html">Features</a></li>
+        			<li><a href="about.html">About</a></li>
+        		</ul>
+			</div>
+		</nav>
+	</header>
+
+	<div class="container">
+		<!--IMAGE CAROUSEL
+			Note to self: everything in slider needs to be in div w/ class that has "active" in it-->
+		<div class="container">
+        	<div id="slider" class="carousel slide" data-ride="carousel" data-interval="2500">
+        	<!--"data-interval"=time (ms) between pictures-->
+
+	        	<!--Indicators-->
+	        	<ol class="carousel-indicators">
+	        		<li data-target="#slider" data-slide-to="0" class="active"></li>
+	        		<li data-target="#slider" data-slide-to="1"></li>
+	        		<li data-target="#slider" data-slide-to="2"></li>
+	        	</ol>
+
+			  	<!-- Wrapper for slides -->
+			  	<div class="carousel-inner" role="listbox">
+				    <div class="item active">
+				    	<img class="img-responsive" src="images/brainL - edited.jpg" width="100%">
+				    </div>
+
+				    <div class="item">
+					    <img class="img-responsive" src="images/neuronsM.jpg" width="100%">
+				    </div>
+
+					<div class="item">
+					    <img class="img-responsive" src="images/kyautSaeCave.jpg" width="100%">
+				    </div>				    
+
+					<!-- Comment this out at the risk of hurting your eyes!
+					<div class="item">
+					    <img class="img-responsive" src="images/illusion.jpg"height="20%">
+				    </div> -->
+				</div>
+
+				<!-- Controls (left and right arrows to browse between the items) -->
+				<a class="left carousel-control" href="#slider" role="button" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				    <span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="#slider" role="button" data-slide="next">
+				    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				    <span class="sr-only">Next</span>
+				</a>
+
+			</div>
+		</div>
+		
+		<section>
+			<h2>My Favorite Subjects</h2>
+			<div class="row">
+				
+				<div class="col-sm-6 col-md-3">
+					<div class="thumbnail" id="neuroscience">
+						<img src="images/brainBlue.png">
+						<div class="caption">
+							<h3>Neuroscience</h3>
+							<p>I love thinking about the way the mind works and just better understanding why humans act the way they do.</p>
+							<p>Special Interests: TBA ;)</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-6 col-md-3">
+					<div class="thumbnail" id="math">
+						<img src="images/pi.png" width="75%">
+						<div class="caption">
+							<h3>Mathematics</h3>
+							<p>I just admired the way it's structured so well.</p>
+							<p>Special Interests: Algebra, Calculus, Trigonometry (just no logic proofs; I don't particularly like writing out a table explaining why I should use the SAS or ASA or something-something-something to prove what could easily be done with algebra or trig :P)</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-6 col-md-3">
+					<div class="thumbnail" id="fantasy">
+						<img src="images/fantasyCastle.gif">
+						<div class="caption">
+							<h3>The Fantastic!</h3>
+							<p>Haha, yeah it's not really a class subject, but I never title this section as "My Favorite CLASS Subjects" so...</p>
+							<p>But in all seriousness, I took this English class called "The Enchanted Imagination" and it was truly beautiful. Granted there a lot of interpretations based around sexuality in some form or another, but that also depends on what books are on the syllabus.</p>
+							<p>We even read the Lord of the Rings by J.R. Tolkien and hot damn that man was a genius. There's so much going on beyond just the superficial storyline. I'd recommend to everyone, except I don't know if I should bother, since it's already so popular. ;)
+								<br> It is a very long read though, so if you just want to rush through a book in a few hours, you might want to pick up a book that's less hefty.
+								<br> But hey, if you do decide to take the time, great! You won't regret it!
+								<br> And if you somehow are able to get through the whole LOTR series without being some amazing speed reader, then I give you props for dedication. <img src="images/thumbsUp.png" alt="thumbs up" width="10%">
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-6 col-md-3">
+					<div class="thumbnail" id='music'>
+						<img src="images/headphones.png">
+						<div class="caption">
+							<h3>Music</h3>
+							<p>Honestly, with the music classes I've taken so far, regardless of the workload, the teachers who've been teaching were always passionate about what they taught. Probably it's because it's such an active part of their lives, since so many of them sing or direct a choir or professionally play some instrument.</p>
+							<p>It's also a joy to listen to just because even if you can't understand music, if you crank the volume up load enough you can FEEL it.</p>
+							<p>And many people in the world at least know who Beethoven, Bach, and Brahms are, although there are many, MANY more wonderfully skilled musicians that are not as integrated into mainstream culture nowadays, at least for the young'uns. It might change in the future though, so who really knows?</p>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+
+		<div class="panel-group container" id="accordion" role="tablist" aria-multiselectable="true">
+	        <h2>Other Interests</h2>
+	        <!-- panel -->
+	        <div class="panel panel-default">
+	            <div class="panel-heading" role="tab" id="headingOne">
+	                <h4 class="panel-title">
+	                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#programming">
+	                        Programming
+	                    </a>
+	                </h4>
+	            </div>
+	            <!-- Removed second "collapse" from class attribute cuz that way links on drop-down will directly lead to text rather than not do anything -->
+	            <!-- <div id="programming" class="panel-collapse collapse" role="tabpanel"> -->
+	            <div id="programming" class="panel-collapse" role="tabpanel">
+	                <div class="panel-body">
+	                    <p>For obvious reasons, I'm interested in programming. This whole site was programmed with the HTML/CSS skills I've learned so far.</p>
+	                    <p>I think programming is cool because with many of the languages, one can see the product immediately. It's also fun just creating the things we usually interact with in our daily lives like websites, apps, programs, etc.</p>
+	                    <p>It's amazing how much we take for granted that other people learn so much about and are creative enough to create these new languages to disseminate content and provide everyone all over the world with a network of knowledge and communication.</p>
+	                </div>
+	            </div>
+	        </div>
+
+	        <div class="panel panel-default">
+	            <div class="panel-heading" role="tab" id="headingTwo">
+	                <h4 class="panel-title">
+	                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#crochet">
+	                        Crocheting
+	                    </a>
+	                </h4>
+	            </div>
+	            <!-- Removed second "collapse" from class attribute cuz that way links on drop-down will directly lead to text rather than not do anything -->
+	            <!-- <div id="crochet" class="panel-collapse collapse" role="tabpanel"> -->
+	            <div id="crochet" class="panel-collapse" role="tabpanel">
+	                <div class="panel-body">
+	                    <p>I mean, who doesn't like making cute little amigurumis (a.k.a., stuffed animals), pillows, and other neat little things! Plus if you make scarves, hats, shirts, gloves, socks, etc. either for youself or for someone else, there's some extra meaning to it because you spent the time and care to make it.</p>
+	                    <p>I usually crochet while watching TV or listening to music, since some projects can take as little as an hour or up to a few days or even a week (assuming I don't have much to do).</p>
+	                    <p>I think it's a great way to destress because you're focusing on finishing this one task. Plus, you have to make sure you don't miscount the stitches like I do all the time :P</p>
+	                    <p>WARNING: If you don't position your body right, you can get back or shoulder pain. It happens to me when I'm working on a project for hours, but usually it goes away after a good night's rest.</p>
+	                    <p>ALSO: Crocheting is NOT, I repeat NOT, the same as knitting. They're two different activities. I find crocheting easier to learn, but that's probably also because I didn't spend too much time trying to learn how to knit.</p>
+	                </div>
+	            </div>
+	        </div>
+
+	        <div class="panel panel-default">
+	            <div class="panel-heading" role="tab" id="headingThree">
+	                <h4 class="panel-title">
+	                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#asl">
+	                        ASL (American Sign Language)
+	                    </a>
+	                </h4>
+	            </div>
+	            <!-- Removed second "collapse" from class attribute cuz that way links on drop-down will directly lead to text rather than not do anything -->
+	            <!-- <div id="asl" class="panel-collapse collapse" role="tabpanel"> -->
+	            <div id="asl" class="panel-collapse" role="tabpanel">
+	                <div class="panel-body">
+	                    <p>I've been learning ASL at a school club. I love how it teaches you to be more expressive, because that's something many hearing people fail to do sometimes. When we talk, we rely on the person we're talking to to actually listen. I think learning ASL not only promotes increased eye contact but also allows us to better emote ourselves, especially in a world where everything is now held back and hidden, even from those we love most.</p>
+	                    <p>If you see me, don't expect me to be able to perfectly sign back. As of now, I'm still pretty much a beginner. I also don't really know the different sign "slang" for different regions, but I'm hoping to learn if I get the chance.</p>
+	                    <p>I recommend people to learn it! If there are no classes in local colleges or schools, there are usually some private institutions or ASL centers that offer their own classes at a reasonable price.</p>
+	                </div>
+	            </div>
+	        </div>
+
+	    </div><!-- end panel group -->
+
+	</div><!-- end container -->
+
+
+	<!-- JavaScript stuff to make Bootstrap and other things work -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</body>
+</html>
