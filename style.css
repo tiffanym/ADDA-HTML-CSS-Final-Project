@@ -3,7 +3,6 @@
 	margin:0 auto;
 }
 
-.carousel-inner .img-responsive{
-	height:571px;
-	width:700px;
+.container #slider .carousel-inner img{
+	
 }
